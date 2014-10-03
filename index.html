@@ -4,17 +4,20 @@
 		<script type="text/javascript" src="script.js"></script>
 		
 		<script>
+		/*
 			function startTimer() {
 				var coloursArray = new Array('green', 'blue', 'yellow', 'orange');
 				
 				// I don't think we want this any more, it is making some customers blind
 				// Just delete the colour thing
 				randomBackgroundColour(coloursArray);
+
 			}
+			*/
 		</script>
 	</head>
 	
-	<body onload="startTimer()" style="background-color: #FFFFCC;">
+	<body onload="startTimer()" style="background-color: #FFFFCC;" oncontextmenu="return false">
 		<div style="width: 900px; margin: 0 auto">
 			
 			
@@ -62,7 +65,7 @@
 				<form id="calculate_car_price" action="">
 					Purchase price: <input type="text" name="carPurchasePrice" value=""><br>
 					
-					Age 
+					<p>Age</p> 
 					<select name="carAge">
 						<option value="1">1 year</option>
 						<option value="2">2 years</option>
